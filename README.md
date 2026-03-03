@@ -1,6 +1,10 @@
 # Quiro Salud CDMX - Sitio Web Móvil
 
-Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clínica quiropráctica ubicada en Gustavo A. Madero, Ciudad de México. El sitio está optimizado para **GitHub Pages** y enfocado en **conversión de clientes locales** y **SEO local**.
+Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clínica quiropráctica ubicada en Gustavo A. Madero, Ciudad de México. El sitio está optimizado para **GitHub Pages** y enfocado en **conversión de clientes locales** y **SEO local**. 
+
+## URL del Sitio
+Puedes visualizar el sitio directamente en:
+👉 [https://quiropracticomasajeyspacdmx.github.io/quirosaludcdmx-mobile/](https://quiropracticomasajeyspacdmx.github.io/quirosaludcdmx-mobile/)
 
 ## Características
 - Diseño 100% móvil
@@ -12,7 +16,7 @@ Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clín
 
 ## Estructura del Proyecto
 ```
-/quirosaludcdmx/
+/quirosaludcdmx-mobile/
 │── index.html
 │── servicios/
 │   ├── quiropractico.html
@@ -25,7 +29,6 @@ Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clín
 │   │   └── mobile-script.js
 │   └── images/
 │       ├── logo-shield.webp
-│       ├── hero-image.webp
 │       ├── servicio1.webp
 │       ├── servicio2.webp
 │       ├── servicio3.webp
@@ -35,13 +38,13 @@ Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clín
 ```
 
 ## Configuración
-1. Clona este repositorio:
+1. **Clona este repositorio:**
    ```bash
    git clone https://github.com/quiropracticomasajeyspacdmx/quirosaludcdmx-mobile.git
    ```
-2. Reemplaza las imágenes de ejemplo en `/assets/images/` con tus propias imágenes (en formato WebP y optimizadas).
-3. Actualiza los números de teléfono, enlaces de WhatsApp y Google Maps en los archivos HTML.
-4. Personaliza los textos y precios según tus servicios.
+2. **Reemplaza las imágenes** en `/assets/images/` con tus propias imágenes (en formato WebP y optimizadas).
+3. **Actualiza los enlaces** de WhatsApp y Google Maps en los archivos HTML con tus datos reales.
+4. **Personaliza los textos** y precios según tus servicios.
 
 ## Personalización
 - **Logotipo:** Reemplaza `logo-shield.webp` con tu logotipo (sin cambiar el nombre del archivo).
@@ -50,17 +53,12 @@ Este es el repositorio del sitio web móvil para **Quiro Salud CDMX**, una clín
 - **Horarios y dirección:** Actualiza la información en el schema markup y en el footer.
 
 ## Despliegue en GitHub Pages
+El sitio ya está configurado para GitHub Pages. Si necesitas volver a desplegarlo:
 1. Ve a la configuración del repositorio en GitHub.
 2. Selecciona **Pages** en el menú lateral.
 3. Elige la rama `main` como fuente.
 4. Guarda los cambios.
-5. Tu sitio estará disponible en `https://[tu-usuario].github.io/quirosaludcdmx-mobile/`.
-
-## Dominio Personalizado
-Si deseas usar un dominio personalizado como `quirosaludcdmx.site`:
-1. Compra el dominio en tu registrador favorito.
-2. Configura el dominio en GitHub Pages.
-3. Actualiza los DNS según las instrucciones de GitHub.
+5. El sitio estará disponible en `https://quiropracticomasajeyspacdmx.github.io/quirosaludcdmx-mobile/`.
 
 ## Notas Importantes
 - Asegúrate de que todas las imágenes estén en formato **WebP** y optimizadas para web.
